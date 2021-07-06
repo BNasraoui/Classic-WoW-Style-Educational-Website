@@ -1,0 +1,701 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+    line-height: 1.5em;
+    background: #120707;
+    color: #F2F2F2;
+    height: 1100px;
+}
+
+.homeButton{
+    position: fixed;
+    top:50px;
+    left: 38px;
+}
+/* General Navigation */
+#header-background {
+    border: solid;
+    border-color: #E0E0E0;
+    position: fixed;
+    width: 1680px;
+    height: 195px;
+    left: 240px;
+    right: 0%;
+    top: 0px;
+    background: #120707;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+}
+
+#header-background h1 {
+    /* Dante’s Guide To World of Warcraft */
+    position: absolute;
+    left: 28.4%;
+    right: 28.4%;
+    top: 28.29%;
+    bottom: 28.29%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3em;
+    line-height: 56px;
+    color: #F2F2F2;
+}
+
+#header-background #dropbtn {
+
+    width: 216px;
+    height: 80px;
+    background: #120707;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #F2F2F2;
+}
+
+/* The container <div> - needed to position the dropdown content */
+#header-background .dropdown_inferno {
+    min-width: 216px;
+    display: inline-block;
+    position: absolute;
+    left: 26.8%;
+    right: 73.56%;
+    bottom: 0%;
+}
+
+#header-background .dropdown_purgatory {
+    min-width: 216px;
+    position: absolute;
+    left: 39.75%;
+    right: 41.14%;
+    bottom: 0%;
+    background: #120707;
+}
+
+#header-background .dropdown_paradise {
+    min-width: 216px;
+    position: absolute;
+    left: 52.66%;
+    right: 26.44%;
+    bottom: 0%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+#header-background .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 216px;
+}
+
+/* Links inside the dropdown */
+#header-background .dropdown-content a {
+    width: 216px;
+    color: black;
+    text-decoration: none;
+    background-color: #120707;
+    color: #F2F2F2;
+    border-width: 1px;
+    display: block;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* Change color of dropdown links on hover */
+#header-background .dropdown-content a:hover {
+    background-color: #F2F2F2;
+    color: black;
+}
+
+/* Show the dropdown menu on hover */
+#header-background .dropdown_purgatory:hover .dropdown-content {
+    display: block;
+}
+
+#header-background .dropdown_inferno:hover .dropdown-content {
+    display: block;
+}
+
+#header-background .dropdown_paradise:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+#header-background .dropdown:hover .dropbtn {
+    background-color: #F2F2F2;
+}
+
+.scenariosNavbar {
+    position: fixed;
+    width: 240px;
+    height: 864px;
+    left: 0px;
+    top: 195px;
+    background: #120707;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+}
+
+.scenariosNavbar a {
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    background-color: #120707;
+    color: #F2F2F2;
+    border-width: 1px;
+    display: block;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.scenariosNavbar a:hover {
+    background-color: #F2F2F2;
+    color: black;
+}
+
+/*MAIN PAGE*/
+.guideStart {
+    position: fixed;;
+    width: 900px;
+    height: 565px;
+    left: 550px;
+    top: 35%;
+    background: url(images/delacroixbarquedante.jpg), #C4C4C4;
+    border-radius: 46px;
+}
+
+.guideStart p {
+    position: absolute;
+    width: 405px;
+    height: 110px;
+    top: 369px;
+    left: 257px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 28px;
+    text-align: center;
+    color: #F2F2F2;
+}
+
+.guideStart a:link, .guideStart a:visited {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    width: 256px;
+    height: 20px;
+    top: 501px;
+    left: 332px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 28px;
+    text-align: center;
+    color: #F2F2F2;
+}
+
+.guideStart a:hover {
+    color: #BA251E;
+}
+
+/* Class Pages*/
+.classHeading {
+    position: absolute;
+    top: 250px;
+    left: 284px;
+    z-index: -1;
+}
+
+.classHeading h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3em;
+    line-height: 56px;
+}
+
+/*Class Specific Heading Colours*/
+.classHeading .warlockHeading{color: #8787ED;}
+.classHeading .rogueHeading {color: #FFF569;}
+.classHeading .shamanHeading {color: #0070DE;}
+.classHeading .mageHeading{color: #40C7EB;}
+.classHeading .warriorHeading{color: #C79C6E;}
+.classHeading .hunterHeading{color: #ABD473;}
+.classHeading .priestHeading{color: #FFFFFF;}
+.classHeading .paladinHeading{color: #F58CBA;}
+.classHeading .druidHeading{color: #FF7D0A;}
+
+/*Class Description Formatting*/
+.classDescription {
+    position: absolute;
+    width: 510px;
+    height: 137px;
+    left: 284px;
+    top: 328px;
+}
+
+/*Class Description Heading*/
+.classDescription h1 {
+    position: absolute;
+    left: 0%;
+    right: 30%;
+    top: 0%;
+    bottom: 79.56%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 28px;
+    color: #F2F2F2;
+    z-index: -1;
+}
+/*Class Description Content*/
+.classDescription p {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 26.28%;
+    bottom: 0%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875em;
+    line-height: 16px;
+    color: #F2F2F2;
+    text-align:justify;
+    z-index: -1;
+}
+
+.classDescription ul {
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: #F2F2F2;
+
+}
+
+/*Infographic: Class Specific Content*/
+.warlockInfographic {
+    position: absolute;
+    width: 719px;
+    height: 425px;
+    left: 284px;
+    bottom: 12.5px;
+    text-align: center;
+    background-image: url(images/warlock.png);
+    border-radius: 27px;
+}
+
+.rogueInfographic {
+    position: absolute;
+    width: 719px;
+    height: 425px;
+    left: 284px;
+    bottom: 12.5px;
+    text-align: center;
+    background-image: url(images/rogue.jpg);
+    border-radius: 27px;
+}
+
+.shamanInfographic {
+    position: absolute;
+    width: 719px;
+    height: 425px;
+    left: 284px;
+    bottom: 12.5px;
+    text-align: center;
+    background-image: url(images/shaman.jpg);
+    border-radius: 27px;
+}
+
+.mageInfographic {
+    position: absolute;
+    width: 719px;
+    height: 425px;
+    left: 284px;
+    bottom: 12.5px;
+    text-align: center;
+    background-image: url(images/mage.jpg);
+    border-radius: 27px;
+}
+
+.warriorInfographic {
+    position: absolute;
+    width: 719px;
+    height: 425px;
+    left: 284px;
+    bottom: 12.5px;
+    text-align: center;
+    background-image: url(images/warrior.jpg);
+    border-radius: 27px;
+}
+
+.hunterInfographic {
+    position: absolute;
+    width: 719px;
+    height: 425px;
+    left: 284px;
+    bottom: 12.5px;
+    text-align: center;
+    background-image: url(images/Hunter.jpg);
+    border-radius: 27px;
+}
+
+.priestInfographic {
+    position: absolute;
+    width: 719px;
+    height: 425px;
+    left: 284px;
+    bottom: 12.5px;
+    text-align: center;
+    background-image: url(images/Priest.jpg);
+    border-radius: 27px;
+}
+
+.paladinInfographic {
+    position: absolute;
+    width: 719px;
+    height: 425px;
+    left: 284px;
+    bottom: 12.5px;
+    text-align: center;
+    background-image: url(images/paladin.jpg);
+    border-radius: 27px;
+}
+
+.druidInfographic {
+    position: absolute;
+    width: 719px;
+    height: 425px;
+    left: 284px;
+    bottom: 12.5px;
+    text-align: center;
+    background-image: url(images/druid.jpg);
+    border-radius: 27px;
+}
+
+/*Infographic: Available Races*/
+.races {
+    position: absolute;
+    left: 2.78%;
+    right: 66.9%;
+    top: 9.18%;
+    bottom: 54.59%;
+    width: 30.31%;
+    height: 45.23%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+
+}
+
+.races th {
+    position: absolute;
+    left: 33%;
+    right: 30.73%;
+    top: 7.5%;
+    bottom: 66.88%;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 28px;
+    color: #F2F2F2;
+    padding: 0px;
+    margin: 0px;
+}
+
+.races td{
+    top: 5.5%;
+    height: 25px;
+}
+
+.races tr{
+    height: 30px;
+}
+
+.races .Ally {
+    /* Alliance */
+    position: absolute;
+    left: 6.42%;
+    right: 54.59%;
+    top: 20%;
+    bottom: 46.1%;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 28px;
+    color: #034BC7;
+}
+
+.races .Horde {
+    /* Horde */
+    position: absolute;
+    left: 55%;
+    right: 6.88%;
+    top: 20%;
+    bottom: 44.81%;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 28px;
+    color: #960700;
+}
+
+/*Infographic: Recommendations*/
+.recommendations {
+    position: absolute;
+    left: 2.78%;
+    right: 66.9%;
+    top: 60%;
+    bottom: 8.71%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    width: 30.31%;
+    height: 36.23%;
+}
+
+.recommendations th {
+    position: absolute;
+    left: 26.15%;
+    right: 26.15%;
+    top: 5.34%;
+    bottom: 64.94%;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 28px;
+    color: #F2F2F2;
+}
+
+.recommendations td {
+    text-align: center;
+    padding-right: 10%;
+}
+
+/* Abilites Graphics */
+.abilities .ability1 {
+    position: absolute;
+    width: 400px;
+    height: 197px;
+    left: 1229px;
+    top: 328px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    z-index: -1;
+}
+
+.abilities .ability2 {
+    position: absolute;
+    width: 400px;
+    height: 197px;
+    left: 1229px;
+    top: 545px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+.abilities .ability3 {
+    position: absolute;
+    width: 400px;
+    height: 197px;
+    left: 1229px;
+    top: 762px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+.abilities img{
+    position: absolute;
+    left: 4.79%;
+    right: 77.18%;
+    top: 5.58%;
+    bottom: 61.93%;
+}
+
+.abilities .abilityName {
+    position: absolute;
+    left: 27.04%;
+    right: 5%;
+    top: 5.58%;
+    bottom: 80.2%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 28px;
+    color: #F2F2F2;
+}
+
+.abilities .cooldownText {
+    /* Cooldown */
+    position: absolute;
+    left: 27.04%;
+    right: 34.93%;
+    top: 19.8%;
+    bottom: 72.08%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875em;
+    line-height: 16px;
+    color: #F2F2F2;
+}
+
+.abilities .castTime {
+    /* Cast Time */
+    position: absolute;
+    left: 27.04%;
+    right: 27.55%;
+    top: 29.95%;
+    bottom: 61.93%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875em;
+    line-height: 16px;
+    color: #F2F2F2;
+}
+
+.abilities .descritpion {
+    position: absolute;
+    left: 4.79%;
+    right: 41.13%;
+    top: 44.16%;
+    bottom: 40.61%;
+    font-size: 12px;
+    line-height: 0.875em;
+    color: #F2F2F2;
+}
+
+.abilities .range {
+    position: absolute;
+    left: 69.3%;
+    right: 5.35%;
+    top: 42.13%;
+    bottom: 38.58%;
+    font-size: 0.875em;
+    line-height: 16px;
+    color: #F2F2F2;
+}
+
+.abilities .DamageType {
+    /* Damage Type */
+    position: absolute;
+    left: 4.79%;
+    right: 58.31%;
+    top: 75.13%;
+    bottom: 8.63%;
+    font-size: 0.875em;
+    line-height: 16px;
+    color: #F2F2F2;
+}
+
+.abilities .resourceCost {
+    /* Resource Cost */
+    position: absolute;
+    left: 55.49%;
+    right: 5.35%;
+    top: 75.13%;
+    bottom: 6.6%;
+    font-size: 0.875em;
+    line-height: 16px;
+    color: #F2F2F2;
+}
+
+.bottomNav {
+    position: fixed;
+    width: 1680px;
+    height: 25px;
+    bottom: 0px;
+    left: 240px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.bottomNav h1{
+    display: inline;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: lighter;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.bottomNav .back{
+    display: inline;
+    left: 240px;
+    margin-left: 650px;
+
+}
+
+.bottomNav .forward {
+    display: inline;
+    right: 0px
+}
+
+.bottomNav a {
+    color: black;
+    font-size: 1.25em;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #120707;
+    color: #F2F2F2;
+    border-width: 1px;
+    display: block;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+}
+
+.bottomNav a:hover {
+    background-color: #F2F2F2;
+    color: black;
+}
+
+.noteableScenarios{
+    position: absolute;
+    left: 562.5px; 
+    top: 650px;
+}
+
+.noteableScenarios h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 1.75em;
+    color: #F2F2F2;
+    padding-bottom: 10px;
+}
+
+.noteableScenarios img {
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+}
+
+.whyThis{
+    position: absolute;
+    right: 284px;
+    top: 328px;
+}
+
+.whyThis h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 28px;
+    color: #F2F2F2;
+    padding-bottom: 10px;
+}
